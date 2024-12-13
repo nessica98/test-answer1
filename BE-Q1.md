@@ -4,7 +4,7 @@
 
 ### **The overview new system is show below**
 
-![api_design1.drawio (1).png](api_design1.drawio_(1).png)
+![api_design1.drawio (1).png](api_design1.drawio.png)
 
 **Explain for new system design**
 
