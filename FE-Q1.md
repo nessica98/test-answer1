@@ -2,7 +2,7 @@
 
 useCallback ใช้ทําอะไร
 
-useCallback() เป็น react hook function ที่ใช้เก็บผลลัพท์ที่ได้จาก function โดยถ้าตัวแปรใน dependency array ไม่มีการเปลี่ยนแปลงค่า จะไม่ re render component ใหม่ และยังเก็บการทำงานของ function ที่ใส่เข้ามา โดยที่ไม่มีการเปลี่ยนแปลงการทำงาน
+useCallback() เป็น react hook function ที่ใช้เก็บผลลัพท์ที่ได้จาก function โดยถ้าตัวแปรใน dependency array ไม่มีการเปลี่ยนแปลงค่า จะไม่ re-render component ใหม่ และยังเก็บ (cache) การทำงานของ function ที่ใส่เข้ามา โดยที่ไม่มีการเปลี่ยนแปลงการทำงาน
 
 ตัวอย่างการใช้งาน
 

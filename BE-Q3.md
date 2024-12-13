@@ -56,11 +56,11 @@ NameLanguage and DescLanguage table have the same schema.
 
 **Testing Strategy**
 
-- Unit test - Handle unit test by test module in Nest.js. Each services and util function should be covered with unit test and have coverage with whole functionality
-- Integration test - Handle both API functionality that consists of Search and Create API
+- Unit test - Handle unit test by test module in Nest.js. Each service and utility function should be covered with unit tests and have coverage with the whole functionality.
+- Integration test - Handle both API functionality that consists of a search and a create API.
     - Search API
-        - Pagination can get data correctly
-        - Able to use search keyword and find data correctly
+        - Pagination can get data correctly.
+        - Able to use search keywords and find data correctly
     - Create API
-        - Check that can create product to database correctly (product name and description by multiple language can be also kept in database)
-- End-to-end test - Handle test with other services that work with API or Front end service that can get / create data correctly along with the service
+        - Check that can create a product in the database correctly (product name and description in multiple languages can also be kept in the database).
+- End-to-end test: Handle tests with other services that work with APIs or front-end services that can get/create data correctly along with the service.
