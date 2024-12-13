@@ -20,6 +20,19 @@ Spec
 |  | th | string | ✅ |
 |  | en | string | ✅ |
 
+###  Example 
+```
+{
+    "productName": {
+        "th": "ทดสอบ",
+        "en": "test"
+    },
+    "productDescription": {
+        "th": "ทดสอบ รายละเอียด",
+        "en": "test detail"
+    }
+}
+```
 **Search API**
 
 - GET `/product`
