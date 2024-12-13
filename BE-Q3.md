@@ -31,7 +31,7 @@ Spec
 
 **Database Design**
 
-![multilang.png](BE-Q3%2015a9a2f3e6ba80e5bd4eee4b1013939a/multilang.png)
+![multilang.png](multilang.png)
 
 - Table : Product → Keep product record
 - Table : NameLanguage → Keep each product name and support multiple languages
